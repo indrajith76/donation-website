@@ -8,10 +8,10 @@
     background-repeat: no-repeat;
 }
 
-.banner-top div {
+.banner-top-child {
     text-align: center;
-    padding: 150px 300px 150px 300px;
-    background: linear-gradient(180deg, transparent,rgb(29, 24, 24));
+    padding: 150px 300px 182px 300px;
+    background: linear-gradient(180deg, transparent,#1d1818);
     color: #FFFFFF;
 }
 
@@ -23,6 +23,7 @@
 .banner-top-child p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    opacity: .9;
     margin: 0 65px 50px 65px;
 }
 
@@ -32,4 +33,5 @@
     padding: 15px 25px 15px 25px;
     border-radius: 5px;
     color: #ffffff;
+    font-size: 20px;
 }
