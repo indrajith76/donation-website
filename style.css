@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-top {
+    background: url(images/top-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner-top div {
+    text-align: center;
+    padding: 150px 300px 150px 300px;
+    background: linear-gradient(180deg, transparent,rgb(29, 24, 24));
+    color: #FFFFFF;
+}
+
+.banner-top-child h1 {
+    font-size: 65px;
+    margin: 0 0 20px 0;
+}
+
+.banner-top-child p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0 65px 50px 65px;
+}
+
+.banner-top-child a {
+    text-decoration: none;
+    background: #FF5959;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+}
