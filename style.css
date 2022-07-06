@@ -20,18 +20,96 @@
     margin: 0 0 20px 0;
 }
 
-.banner-top-child p {
+#banner-text {
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     opacity: .9;
-    margin: 0 65px 50px 65px;
+    margin: 0 50px 50px 50px;
 }
 
-.banner-top-child a {
+.btn {
     text-decoration: none;
     background: #FF5959;
     padding: 15px 25px 15px 25px;
     border-radius: 5px;
     color: #ffffff;
     font-size: 20px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background: #fd4343;
+}
+
+.donate {
+    padding: 100px 200px 100px 200px;
+    text-align: center;
+}
+
+.donate h2 {
+    font-size: 45px;
+    margin: 0 0 20px 0;
+}
+
+#donate-text {
+    color: #707070;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: .9;
+    margin: 0 150px 30px 150px;
+}
+
+.donate-child-two {
+    display: flex;
+    justify-content: center;
+}
+#active-donate {
+    font-size: 30px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    width: 130px;
+    height: 115px;
+    line-height: 115px;
+    margin: 10px;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donate-child-two h3 {
+    font-size: 30px;
+    background-color: #f7f7f7;
+    color: #707070;
+    width: 130px;
+    height: 115px;
+    line-height: 115px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.donate-child-three{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.donate-child-three input{
+    display: block;
+    justify-content: center;
+}
+
+#donate-input {
+    height: 50px;
+    width: 720px;
+    font-size: 20px;
+    text-align: center;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #B3B3B3;
+}
+
+.donate-btn {
+    border-style: none;
+    margin: 30px auto 0 auto ;
+    cursor: pointer;
 }
